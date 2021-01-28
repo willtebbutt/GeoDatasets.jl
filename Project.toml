@@ -5,6 +5,7 @@ version = "0.1.4"
 
 [deps]
 CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
+DataDeps = "124859b0-ceae-595e-8997-d05f6a7a8dfe"
 GeoInterface = "cf35fbd7-0cd7-5166-be24-54bfbe79505f"
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 RemoteFiles = "cbe49d4c-5af1-5b60-bb70-0a60aa018e1b"

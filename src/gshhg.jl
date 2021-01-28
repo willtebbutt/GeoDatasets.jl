@@ -45,9 +45,7 @@ end
 
 function gshhgload(fname::AbstractString)
     @debug "fname $fname"
-    @RemoteFile(gshhg_shp, "http://www.soest.hawaii.edu/pwessel/gshhg/gshhg-shp-2.3.7.zip")
-    download(gshhg_shp)
-    zip = ZipFile.Reader(path(gshhg_shp))
+    zip = ZipFile.Reader(datadep"gshhg_shp/gshhg-shp-2.3.7.zip")
 
     io = findfile(zip,fname)
     if io == nothing
